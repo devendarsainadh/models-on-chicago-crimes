@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+*.log
+data/processed/
+project/data/processed/
+project/tableau/exports/
+project/data/

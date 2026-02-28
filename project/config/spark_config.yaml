@@ -1,0 +1,11 @@
+spark:
+  app_name: ChicagoCrimeSimple
+  adaptive_enabled: true
+  shuffle_partitions: 64
+  auto_broadcast_join_threshold_bytes: 10485760
+  serializer: org.apache.spark.serializer.KryoSerializer
+resources:
+  driver_memory: 4g
+  executor_memory: 2g
+  executor_cores: 2
+  notes: Tune based on laptop/cluster capacity

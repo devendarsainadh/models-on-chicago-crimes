@@ -1,0 +1,28 @@
+{
+  "extract_strategy": "Use Tableau Extracts (.hyper) from CSV exports for dashboard speed",
+  "dashboards": [
+    {
+      "name": "dashboard1_data_quality",
+      "source_folder": "tableau/exports/dashboard1_data_quality",
+      "purpose": "Data quality and pipeline monitoring"
+    },
+    {
+      "name": "dashboard2_model_performance",
+      "source_folder": "tableau/exports/dashboard2_model_performance",
+      "purpose": "Model comparison and metrics"
+    },
+    {
+      "name": "dashboard3_business_insights",
+      "source_folder": "tableau/exports/dashboard3_business_insights",
+      "purpose": "Crime trends and recommendations"
+    },
+    {
+      "name": "dashboard4_scalability",
+      "source_folder": "tableau/exports/dashboard4_scalability",
+      "purpose": "Scaling and cost-performance analysis"
+    }
+  ],
+  "mobile": {
+    "recommendation": "Create phone layout and hide non-critical legends"
+  }
+}

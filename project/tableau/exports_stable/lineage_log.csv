@@ -1,0 +1,4 @@
+step,status,details,ts
+ingestion,success,"",2026-02-28 17:46:18.215404
+storage,success,"",2026-02-28 17:46:24.109768
+ml_scaling,success,best=gbt,2026-02-28 17:47:12.090425
